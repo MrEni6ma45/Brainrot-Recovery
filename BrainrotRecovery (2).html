@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brainrot Recovery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .magnifying-glass {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+        }
+        .message {
+            display: none;
+            position: fixed;
+            bottom: 90px;
+            right: 20px;
+            background-color: white;
+            border: 1px solid #3498db;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .step {
+            margin-bottom: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fafafa;
+        }
+        .step-title {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Welcome to Brainrot Recovery</h1>
+    <p>Join us in combating the epidemic of brain rot and reclaiming your cognitive powers!</p>
+
+    <h2>What is Brainrot?</h2>
+    <p><strong>Brain Rot:</strong> A Comprehensive Study of Cognitive Disintegration in the Modern Era</p>
+    <p>Brain rot is a widespread condition affecting an alarming number of internet users today. Characterized by a profound inability to focus, bouts of forgetfulness, and a strange compulsion to scroll endlessly through shitposts and lobotomy memes, this condition is often dismissed as mere laziness. However, a growing body of evidence suggests that brain rot deserves its place in the DSM (Diagnostic and Satirical Manual).</p>
+
+    <h3>Symptoms</h3>
+    <ul>
+        <li><strong>Memory Blackouts:</strong> Forgetting crucial information.</li>
+        <li><strong>Distracted Thinking:</strong> Losing track of time while scrolling.</li>
+        <li><strong>Mood Swings:</strong> Rapid emotional changes influenced by content consumed.</li>
+        <li>Using phrases like "skibidi" or "sigma".</li>
+        <li>Meowing to your friends and/or significant others.</li>
+        <li>Loss of sense of time.</li>
+        <li>Sending hundreds of brainrot reels to your friend, not that he minds, though that makes him also have to find some to send because you wanna keep up connection but it’s hard sometimes...but you make it work because you’re ride or die... ehm.</li>
+    </ul>
+
+    <h2>Brainrot Recovery - Step-by-Step Guide</h2>
+    <div class="step">
+        <p class="step-title">Step 1: Stop Using Reels or TikTok</p>
+        <p>Limiting exposure to short-form, mind-numbing content can prevent further cognitive deterioration. Cold turkey, if possible!</p>
+    </div>
+    <div class="step">
+        <p class="step-title">Step 2: Talk to Non-Brain Rot-Inflicted Friends</p>
+        <p>Meaningful conversation with unaffected friends can remind you what real interaction feels like. Seek out in-depth discussions.</p>
+    </div>
+    <div class="step">
+        <p class="step-title">Step 3: Touch Grass</p>
+        <p>Exposure to nature provides a natural mental reset. Go outside, breathe fresh air, and rediscover the world beyond screens.</p>
+    </div>
+    <div class="step">
+        <p class="step-title">Step 4: Spend One Hour Outside Each Day</p>
+        <p>Regular time outside can improve clarity and reduce screen addiction. Even a daily walk can work wonders!</p>
+    </div>
+
+    <h2>Testimonials</h2>
+    <p>“I used to spend hours scrolling mindlessly, but after I started touching grass and talking to real friends, I realized life is full of joy and laughter! My cat even started following me outside. We’re both recovering together!” - Emma L.</p>
+    <p>“I thought I was destined to be a brain rot zombie forever until I met a group of friends who pulled me out of my scrolling abyss. Now we go on adventures, laugh until our sides hurt, and I haven’t watched a single reel in weeks and have realize most people aren't incels or femcels. I never knew life could be this fun!” - Josh P.</p>
+
+    <h2>Donate</h2>
+    <p><strong>Don't become a victim of brain rot!</strong> Donate today in the name of <strong>Kelan Findley</strong>, a brain rot victim who’s on his way to recovery. Your support will help raise awareness and provide resources for those affected.</p>
+    <a href="#donate"><button>Donate to the Kelan Findley Brainrot Combating Organization</button></a>
+
+    <h3 id="donate">Donation Page</h3>
+    <p>Your donations will go towards helping raise awareness about brain rot and supporting those who are affected. Together, we can make a difference!</p>
+</div>
+
+<!-- Magnifying Glass Button -->
+<div class="magnifying-glass" onclick="toggleMessage()">🔍</div>
+<div class="message" id="message">I go far lengths for a bit, an inside joke no less!</div>
+
+<footer>
+    <p>&copy; 2024 Brainrot Recovery. All Rights Reserved.</p>
+</footer>
+
+<script>
+    function toggleMessage() {
+        const message = document.getElementById('message');
+        message.style.display = message.style.display === 'none' || message.style.display === '' ? 'block' : 'none';
+    }
+</script>
+
+</body>
+</html>
